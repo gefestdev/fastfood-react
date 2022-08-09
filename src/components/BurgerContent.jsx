@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import StyledButton from "./UI/button/StyledButton";
 
 const BurgerContent = () => {
     return(
@@ -16,7 +17,7 @@ const BurgerContent = () => {
                             <h2 className="real__price">$6</h2>
                             <h2 className="fake__price">$8</h2>
                         </div>
-                        <button className="order__btn" style={{marginTop: '11px'}}>ORDER NOW</button>
+                        <StyledButton style={{marginTop: '11px'}}>ORDER NOW</StyledButton>
                     </div>
                 </div>
             </Container>

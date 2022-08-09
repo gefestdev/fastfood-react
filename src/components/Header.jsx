@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import StyledButton from "./UI/button/StyledButton";
 
 const Header = () => {
 
@@ -16,7 +17,7 @@ const Header = () => {
                         <a href="/#" className="text__header">PRICING</a>
                         <a href="/#" className="text__header">SHOP</a>
                     </div>
-                    <button className="order__btn">ORDER NOW</button>
+                    <StyledButton>ORDER NOW</StyledButton>
             </div>
         </Container>
     );

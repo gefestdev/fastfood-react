@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import StyledButton from "./UI/button/StyledButton";
 
 const Preview = () => {
     return(
@@ -12,7 +13,7 @@ const Preview = () => {
                     that the dog's brought home, yet after one mouthful 
                     I've been left eating my thoughts, my words & my food and gone back for seconds.
                 </p>
-                <button className="order__btn" style={{margin: '42px 0 0 0'}}>ORDER NOW</button>
+                <StyledButton style={{margin: '42px 0 0 0'}}>ORDER NOW</StyledButton>
             </div>
         </Container>
     );
