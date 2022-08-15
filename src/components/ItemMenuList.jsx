@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import StyledButton from "./UI/button/StyledButton";
 
 const ItemMenuList = ({item, ...props}) => {
     return(
-        <div className="menu__list-item" style={{backgroundImage: `${item.bgImg}`}}>
+        <div className="menu__list-item" style={{backgroundImage: `url(${item.bgImg})`}}>
                 <div className="menu__list-inner" {...props}>
                     <h1 className="menu__item-toptext">{item.title}</h1>
                     <p className="menu__item-text">

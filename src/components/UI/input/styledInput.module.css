@@ -1,0 +1,12 @@
+.input__item{
+    border: none;
+    width: 200px;
+    height: 70px;
+    border: 3px solid #F6762C;
+    background-color: #313131;
+    color: white;
+    outline: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
